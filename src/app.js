@@ -76,7 +76,7 @@ app.get('*', (request, response) => {
     response.render('404', {
             title: 'Error 404',
             name: 'shashi srinath',
-            errorMessage: 'Page Not Found'
+            errorMessage: 'The Page You Requested Couldn\'t Be Found'
         }
     );
 });
